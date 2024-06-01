@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the hero container */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Set your desired background color */
+    padding: 20px;
+}
+
+/* Style the hero image */
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* Add rounded corners if desired */
+}
+
+/* Style the "Explore now" button */
+.explore-button {
+    padding: 10px 20px;
+    background-color: #ff4500; /* Set your desired button color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.explore-button:hover {
+    background-color: #e63946; /* Change button color on hover */
+}
